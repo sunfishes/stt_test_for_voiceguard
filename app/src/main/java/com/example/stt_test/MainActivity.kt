@@ -34,7 +34,7 @@ import androidx.compose.material3.Text as Text
 
 
 class MainActivity : ComponentActivity() {
-    private val apiKey = "AIzaSyDsplNEyCGYg7z_1EP564BLthDccRrzY8U"
+    private val apiKey = "api_key"
     private val model = GenerativeModel(
         modelName = "gemini-pro",
         apiKey = apiKey,
